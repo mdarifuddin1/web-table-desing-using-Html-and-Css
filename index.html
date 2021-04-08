@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS table</title>
+
+    <style>
+
+        body{
+            background-color: gray;
+        }
+        caption{
+            padding: 20px;
+            font-size: 28px;
+            font-weight: bolder;
+            color: white;
+        }
+        table{
+            border:2px solid black;
+            border-collapse: collapse;
+            width: 100%;
+           
+        }
+      
+        th ,td{
+            border:2px solid black;
+            height: 30px;
+            padding: 5px;
+            text-align: center;
+            font-weight: bold;
+            font-size: 22px;
+        }
+
+        th{
+            background-color:green;
+            color: white;
+            height: 40px;
+            padding: 7px;
+        }
+
+        tr:nth-child(even){
+            background-color:teal;
+        }
+         
+        tr:nth-child(odd){
+            background-color:gold;
+        }
+
+        
+
+        tr:hover{
+            background-color: tomato;
+        }
+      
+      
+
+        
+        
+        
+    </style>
+</head>
+<body>
+    
+
+    
+    <table>
+        <caption> Students Details</caption>
+
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>GPA</th>
+            <th>Pnone</th>
+            <th>Bio</th>
+        </tr>
+
+        <tr>
+            <td>101</td>
+            <td>Arif</td>
+            <td>3.56</td>
+            <td>0173135041</td>
+            <td> Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, neque.</td>
+        </tr>
+
+
+        <tr>
+            <td>101</td>
+            <td>Arif</td>
+            <td>3.56</td>
+            <td>0173135041</td>
+            <td> Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, neque.</td>
+        </tr>
+
+
+        <tr>
+            <td>101</td>
+            <td>Arif</td>
+            <td>3.56</td>
+            <td>0173135041</td>
+            <td> Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, neque.</td>
+        </tr>
+
+
+        <tr>
+            <td>101</td>
+            <td>Arif</td>
+            <td>3.56</td>
+            <td>0173135041</td>
+            <td> Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, neque.</td>
+        </tr>
+
+
+      </table>
+
+
+
+</body>
+</html>
